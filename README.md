@@ -37,14 +37,19 @@ KMS provides a central way to manage cryptographic keys for various AWS services
      
 3. Create a new <b>API</b> to access Lambda function.
    - Build <b>REST API</b>.
-   - NEW API name: APIForLambda.
-   - Create <b>Resource</b> whith name: APIcalllambda (reference: 4-Create API and Resource.png)
+   - NEW API name: Whizlabs API.
+   - Create <b>Resource</b> whith name: whizlabsapi (reference: 4-Create API and Resource.png)
    - Create GET Method.
    - Integration Type: Lambda Function.  (reference: 5-Create API & Resource & Method.png)
 
   
-4. o
-   - 
+4. Run the CLI command to give Lambda permissions to the API using the EC2 Instance.
+   - Run the CLI command through SSH client. (reference: 6-Run the CLI command.png)
+   - Configure AWS CLI:
+      - Run <b>AWS configure </b> to configure my credentials. (reference: 7-AWS Configure.png)
+      - configure <b>uniquely identify objects</b>
+      - Combine information to ensure uniqueness
+      - 
   
    
   

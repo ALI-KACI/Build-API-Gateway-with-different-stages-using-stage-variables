@@ -47,9 +47,24 @@ KMS provides a central way to manage cryptographic keys for various AWS services
    - Run the CLI command through SSH client. (reference: 6-Run the CLI command.png)
    - Configure AWS CLI:
       - Run <b>AWS configure </b> to configure my credentials. (reference: 7-AWS Configure.png)
-      - configure <b>uniquely identify objects</b>
-      - Combine information to ensure uniqueness
-      - 
+      - configure <b>uniquely identify objects</b> (See Number 1 in reference 8)
+      - Combine information to ensure uniqueness (See Number 2 in reference 8))
+      - Run a code and add ProductionLambda's ARN and API's ARN (See Number 3 in reference 8), to let us see a JSON success output(See Number 4 in reference 8).  (reference: 8-Test ProductionLambda.png)
+      - Run a code and add TestingLambda's ARN and API's ARN, to let us see a JSON success output.  (reference: 9-Test TestingLambda.png)
+
+5. Deploy API Gateway with two ifferent stages
+   These Step provide separate environments for testing and production. Implement API Gateway with TestingAPI and ProductionAPI
+     - Deploy API for Testing API stage (reference: 10-TestingAPI.png)
+     - Deploy API for Production API stage (reference: 11-ProductionAPI.png)
+     - Check the two Stages (reference: 12-Two Stages available.png)
+  
+       
+6. Add stage variables to both stages
+   Here we define the specific Lambda functions associated with each Stage.
+     - Add Stage variable in each function.  (reference: 13- example ProductionLambda.png)
+
+7. Test API Gateway
+   
   
    
   

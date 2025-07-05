@@ -8,7 +8,7 @@
 
 
 ![API stage drawio](https://github.com/user-attachments/assets/d26b7c38-a86c-47d4-9de1-57c9d81063bd)
-![API stage](https://github.com/user-attachments/assets/4815ea08-a9ea-4e62-aea1-5f0534af72f9)
+
 
 
 

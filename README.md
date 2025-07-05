@@ -20,6 +20,8 @@
 ### Step-by-Step Implementation
 
 <b> Note:</b> we work on us-east-1 region.
+
+
 1. Lunch EC2 instance for run CLI commands and perform actions related to the API Gateway and Lambda functions.   (reference: 1-Launch an EC2 Instances.png)
    - Name and Tags: <b>MyEC2CLIInstance</b>
    - instance-type t2.micro

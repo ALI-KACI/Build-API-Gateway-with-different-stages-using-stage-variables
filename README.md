@@ -57,21 +57,21 @@
 
 
 5. Deploy API Gateway with two different stages
-   These Step provide separate environments for testing and production. Implement API Gateway with TestingAPI and ProductionAPI.
-     - Deploy API for Testing API stage (reference: 10-TestingAPI.png)
-     - Deploy API for Production API stage (reference: 11-ProductionAPI.png)
-     - Check the two Stages (reference: 12-Two Stages available.png)
+    - These Step provide separate environments for testing and production. Implement API Gateway with TestingAPI and ProductionAPI.
+      - Deploy API for Testing API stage (reference: 10-TestingAPI.png)
+      - Deploy API for Production API stage (reference: 11-ProductionAPI.png)
+      - Check the two Stages (reference: 12-Two Stages available.png)
   
        
 6. Add stage variables to both stages
-   Here we define the specific Lambda functions associated with each Stage.
-     - Add Stage variable in each function.  (reference: 13- example ProductionLambda.png)
+    - Here we define the specific Lambda functions associated with each Stage.
+      - Add Stage variable in each function.  (reference: 13- example ProductionLambda.png)
 
 
 7. Test API Gateway
-   Here we ensure that the API Gateway is properly integrated with the Lambda functions, By making GET requests to the endpoints associated with the deployed stages.
-     - By copy <b>Invoke URL</b> for the GET requests of <b>ProductionLambda</b>   (reference: 14-Invoke ProductionLambda.png)
-     - Similarly for <b>TestingLambda</b>   (reference: 15-Copy URL for GET TestingAPI.png) & (reference: 16-Invoke TestingLambda.png)
+    - Here we ensure that the API Gateway is properly integrated with the Lambda functions, By making GET requests to the endpoints associated with the deployed stages.
+      - By copy <b>Invoke URL</b> for the GET requests of <b>ProductionLambda</b>   (reference: 14-Invoke ProductionLambda.png)
+      - Similarly for <b>TestingLambda</b>   (reference: 15-Copy URL for GET TestingAPI.png) & (reference: 16-Invoke TestingLambda.png)
    
      
 
